@@ -18,9 +18,6 @@ if __name__ == '__main__':
     secondLowestGrade = [x for x in studentList if x[1] == min2Grade]
     secondLowestGrade.sort()
 
-    print(minGrade)
-    print(min2Grade)
-
     for student in secondLowestGrade:
         print(student[0])
     

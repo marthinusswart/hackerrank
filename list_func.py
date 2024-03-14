@@ -20,6 +20,4 @@ if __name__ == '__main__':
         elif (instr == "reverse"):
             arraylist.reverse()
         
-        #print("instruction: {}, params {}".format(instr, params))
-        #print (arraylist)
 
